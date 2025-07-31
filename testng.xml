@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Integration Suite">
+  <test thread-count="5" name="Integration Test Cases">
+    <classes>
+      <class name="AmazonPackage.AmazonProject.TestCase2_AddToCart"/>
+      <class name="AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- AmazonProjectSuite -->
