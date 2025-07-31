@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-30T16:30:08 IST" name="Integration Suite" finished-at="2025-07-30T16:31:42 IST" duration-ms="93768">
+    <groups>
+    </groups>
+    <test started-at="2025-07-30T16:30:08 IST" name="Integration Test Cases" finished-at="2025-07-30T16:31:42 IST" duration-ms="93768">
+      <class name="AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout@313ac989]" started-at="2025-07-30T16:31:08 IST" name="browserlaunch" finished-at="2025-07-30T16:31:12 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="withvalidcredentials()[pri:0, instance:AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout@313ac989]" started-at="2025-07-30T16:31:12 IST" name="withvalidcredentials" finished-at="2025-07-30T16:31:38 IST" duration-ms="25882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withvalidcredentials -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout@313ac989]" started-at="2025-07-30T16:31:38 IST" name="browserquit" finished-at="2025-07-30T16:31:42 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- AmazonPackage.AmazonProject.TestCase1_LogintoAmazonLogout -->
+      <class name="AmazonPackage.AmazonProject.TestCase2_AddToCart">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:AmazonPackage.AmazonProject.TestCase2_AddToCart@478190fc]" started-at="2025-07-30T16:30:08 IST" name="browserlaunch" finished-at="2025-07-30T16:30:21 IST" duration-ms="13094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="withvalidcredentials()[pri:0, instance:AmazonPackage.AmazonProject.TestCase2_AddToCart@478190fc]" started-at="2025-07-30T16:30:21 IST" name="withvalidcredentials" finished-at="2025-07-30T16:31:05 IST" duration-ms="43640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withvalidcredentials -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:AmazonPackage.AmazonProject.TestCase2_AddToCart@478190fc]" started-at="2025-07-30T16:31:05 IST" name="browserquit" finished-at="2025-07-30T16:31:08 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- AmazonPackage.AmazonProject.TestCase2_AddToCart -->
+    </test> <!-- Integration Test Cases -->
+  </suite> <!-- Integration Suite -->
+</testng-results>
